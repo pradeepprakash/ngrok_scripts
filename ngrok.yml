@@ -1,0 +1,9 @@
+authtoken: <your_token_from_ngrok.com_goes_here>
+tunnels:
+  ssh:
+    proto: tcp
+    addr: 22
+
+console_ui: false
+log_level: error
+log_format: logfmt    
