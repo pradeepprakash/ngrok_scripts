@@ -3,15 +3,15 @@
 
 ## Files | Description
 
-####  ngrok                           | ARM binary for raspberry Pi
-####  ngrok_core.sh                   | Invokes ngrok with configuration from ngrok.yml 
-####  ngrok.log                       | Contains additional raw logs from ngrok.com
-####  ngrok.pid                       | Contains the current PID of ngrok on that system.
-####  ngrok_port.txt                  | Contains extracted port information in plain text.
-####  ngrok_rpi3_spawn_if_killed.sh   | The main worker script. See header of that file for more info.
-####  ngrok-stable-linux-arm.zip      | This version is ARM package for Raspberry. Check ngrok.com for other architectures 
-####  ngrok.yml                       | The ngrok configuration file. Refer https://ngrok.com/docs#config
-####  README.md                       | This file with some help and description.
+-   ngrok                           | ARM binary for raspberry Pi
+-   ngrok_core.sh                   | Invokes ngrok with configuration from ngrok.yml 
+-   ngrok.log                       | Contains additional raw logs from ngrok.com
+-   ngrok.pid                       | Contains the current PID of ngrok on that system.
+-   ngrok_port.txt                  | Contains extracted port information in plain text.
+-   ngrok_rpi3_spawn_if_killed.sh   | The main worker script. See header of that file for more info.
+-   ngrok-stable-linux-arm.zip      | This version is ARM package for Raspberry. Check ngrok.com for other architectures 
+-   ngrok.yml                       | The ngrok configuration file. Refer https://ngrok.com/docs#config
+-   README.md                       | This file with some help and description.
 
 ## What it does
 The main worker script (ngrok_rpi3_spawn_if_killed.sh) is supposed to be installed 
